@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1f242d;
+    /* background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%); */
+}
+.contact h2{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contact form{
+    width: 600px;
+    text-align: center; 
+}
+form .input-box{
+    display: flex;
+    justify-content: space-between;
+}
+.input-box .input-field{
+    width: 48.5%;
+}
+.field.error .item{
+    border-color: red;
+}
+.field .item{
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid rgb(254, 178, 11);
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #ededed;
+    margin: 12px 0;
+}
+.field .item::placeholder{
+    color: rgba(255, 255, 255, 0.3);
+    
+}
+
+form .textarea-field .item{
+    resize: none;
+}
+form button{
+    padding: 12px 32px;
+    background: rgb(254, 178, 11);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgb(254, 178, 11);
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}
+form button:hover{
+    box-shadow: none;
+}
+.field .error-text{
+    font-size: 14.5px;
+    color: red;
+    text-align: center;
+    margin: -5px 0 10px;
+    display: none;
+}
+.field.error .error-text{
+    display: block;
+}
+form .textarea-field .item{
+    resize: none;
+}
+form .textarea-field .error-text{
+    margin-top: -10px;
+}

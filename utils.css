@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* box-sizing: border-box; */
+}
+
+.main1p {
+    height: 80vh;
+    background-image: url("images/patna1.webp");
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main1g {
+    height: 80vh;
+    background-image: url("images/gayamain.jpg");
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main1r {
+    height: 80vh;
+    background-image: url("images/tourist-places-in-rajgir1.png");
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main1b {
+    height: 80vh;
+    background-image: url("images/buxarmain.jpeg");
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main1rs {
+    height: 80vh;
+    background-image: url("images/rohtasmain.jpg");
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logof {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logof h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.logof> :nth-child(2) {
+    font-size: 24px;
+    position: relative;
+    top: 50px;
+}
+
+.logof> :nth-child(3) {
+    font-size: 24px;
+    position: relative;
+    top: 60px;
+}
+
+.box1 {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.50;
+    position: absolute;
+    top: 0;
+}
+
+.seperation {
+    height: 5px;
+    background-color: white;
+}
+
+.secimg img {
+    width: 40vh;
+    width: 80vh;
+    /* width: 100%; */
+    position: relative;
+    top: 160px;
+    right: 40px;
+    height: auto;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+.secimg img:hover {
+    transform: scale(1.05);
+}
+
+.first1 {
+    font-family: 'Montserrat', sans-serif;
+    /* height: 100vh; */
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    display: flex;
+    justify-content: center;
+    gap: 260px;
+}
+
+.info1 {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.info1 h2 {
+    position: relative;
+    top: 50px;
+    left: 30px;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.infopara {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 30px;
+    font-size: 22px;
+    bottom: 10px;
+}
+
+.height {
+    height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+    .logof h1 {
+        font-size: 26px;
+        font-weight: bolder;
+    }
+    .logof > :nth-child(2){
+        font-size: 18px;
+        color: white;
+        z-index: 1;
+        text-align: center;
+    }
+    .logof > :nth-child(3){
+        font-size: 18px;
+        color: white;
+        z-index: 1;
+        text-align: center;
+    }
+    /* .secimg img{
+        width: 30vw;
+        height: auto;
+    } */
+    
+}
